@@ -26,12 +26,7 @@
                                     Theme="Office2k7Silver" ShowToolTips="True"
                                     MinimizedWidth="60" MinimizedStateThreshold="10"
                                     ShowGroupHeaderAsToolTip="True">
-                <igOutlookBar:OutlookBarGroup Header="Group 1">
-                    <Grid />
-                </igOutlookBar:OutlookBarGroup>
-                <igOutlookBar:OutlookBarGroup Header="Group 2">
-                    <Grid />
-                </igOutlookBar:OutlookBarGroup>
+               
             </igOutlookBar:XamOutlookBar>
 
             <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.ContentRegion}"/>
