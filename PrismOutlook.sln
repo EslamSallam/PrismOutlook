@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismOutlook", "PrismOutlook\PrismOutlook.csproj", "{2F14CDDA-8C13-45FF-A397-C1A03489D474}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrismOutlook", "PrismOutlook\PrismOutlook.csproj", "{2F14CDDA-8C13-45FF-A397-C1A03489D474}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{3206E979-6F1B-4A69-BCE0-154BAD256969}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismOutlook.Modules.Mail", "Modules\PrismOutlook.Modules.Mail\PrismOutlook.Modules.Mail.csproj", "{6819ED8E-D90D-46A9-B487-D4F2DB001008}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrismOutlook.Modules.Mail", "Modules\PrismOutlook.Modules.Mail\PrismOutlook.Modules.Mail.csproj", "{6819ED8E-D90D-46A9-B487-D4F2DB001008}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismOutlook.Modules.Contacts", "Modules\PrismOutlook.Modules.Contacts\PrismOutlook.Modules.Contacts.csproj", "{5882FD08-CF4C-41DD-9C7D-E9A564B7E396}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrismOutlook.Modules.Contacts", "Modules\PrismOutlook.Modules.Contacts\PrismOutlook.Modules.Contacts.csproj", "{5882FD08-CF4C-41DD-9C7D-E9A564B7E396}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismOutlook.Modules.Calendar", "Modules\PrismOutlook.Modules.Calendar\PrismOutlook.Modules.Calendar.csproj", "{5C1BDE1D-9F5C-488D-8DEE-650F2D12255A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrismOutlook.Modules.Calendar", "Modules\PrismOutlook.Modules.Calendar\PrismOutlook.Modules.Calendar.csproj", "{5C1BDE1D-9F5C-488D-8DEE-650F2D12255A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismOutlook.Core", "PrismOutlook.Core\PrismOutlook.Core.csproj", "{C93CA8E6-ECF0-4CD8-9B81-4228E6A133A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrismOutlook.Core", "PrismOutlook.Core\PrismOutlook.Core.csproj", "{C93CA8E6-ECF0-4CD8-9B81-4228E6A133A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismOutlook.Business", "PrismOutlook.Business\PrismOutlook.Business.csproj", "{18A4F0CB-8930-4379-93B2-049422311B15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{C93CA8E6-ECF0-4CD8-9B81-4228E6A133A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C93CA8E6-ECF0-4CD8-9B81-4228E6A133A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C93CA8E6-ECF0-4CD8-9B81-4228E6A133A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A4F0CB-8930-4379-93B2-049422311B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A4F0CB-8930-4379-93B2-049422311B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A4F0CB-8930-4379-93B2-049422311B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A4F0CB-8930-4379-93B2-049422311B15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

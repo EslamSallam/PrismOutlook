@@ -21,11 +21,13 @@
 
         </Fluent:Ribbon>
         <DockPanel LastChildFill="False" Grid.Row="1">
-            <igOutlookBar:XamOutlookBar prism:RegionManager.RegionName="{x:Static core:RegionNames.OutlookGroupRegion}" DockPanel.Dock="Left" Width="200" x:Name="xamOutlookBar" 
-                                    SelectedAreaMinHeight="70" NavigationAreaMaxGroups="0" 
-                                    Theme="Office2k7Silver" ShowToolTips="True"
-                                    MinimizedWidth="60" MinimizedStateThreshold="10"
-                                    ShowGroupHeaderAsToolTip="True">
+            <igOutlookBar:XamOutlookBar prism:RegionManager.RegionName="{x:Static core:RegionNames.OutlookGroupRegion}"
+                                        SelectedGroupChanged="xamOutlookBar_SelectedGroupChanged"
+                                        DockPanel.Dock="Left" Width="200" x:Name="xamOutlookBar" 
+                                        SelectedAreaMinHeight="70" NavigationAreaMaxGroups="0" 
+                                        Theme="Office2k7Silver" ShowToolTips="True"
+                                        MinimizedWidth="60" MinimizedStateThreshold="10"
+                                        ShowGroupHeaderAsToolTip="True">
                
             </igOutlookBar:XamOutlookBar>
 
