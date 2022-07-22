@@ -22,9 +22,11 @@ namespace PrismOutlook.ViewModels
         public DelegateCommand<string> NavigateCommand =>
             _navigateCommand ?? (_navigateCommand = new DelegateCommand<string>(ExecuteNavigateCommand));
 
-        public MainWindowViewModel(IRegionManager regionManager)
+        public MainWindowViewModel(IRegionManager regionManager,IApplicationCommands applicationCommands)
         {
             this.regionManager = regionManager;
+            applicationCommands.NavigateCommand.RegisterCommand(NavigateCommand);
+
         }
         private void ExecuteNavigateCommand(string navigationPath)
         {
@@ -32,8 +34,8 @@ namespace PrismOutlook.ViewModels
             {
                 throw new ArgumentNullException(nameof(navigationPath));
             }
-
             regionManager.RequestNavigate(RegionNames.ContentRegion, navigationPath);
+            
         }
 
 

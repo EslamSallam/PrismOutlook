@@ -8,7 +8,7 @@
              xmlns:ig="http://schemas.infragistics.com/xaml"
              Header="Mail"
           >
-    <ig:XamDataTree ItemsSource="{Binding  Items}">
+    <ig:XamDataTree ItemsSource="{Binding Items}">
         <ig:XamDataTree.GlobalNodeLayouts>
             <ig:NodeLayout Key="GlobalLayout" TargetTypeName="NavigationItem" DisplayMemberPath="Caption"/>
         </ig:XamDataTree.GlobalNodeLayouts>
